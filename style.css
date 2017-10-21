@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+
+body {
+  margin: none;
+  background-color: rgb(15, 0, 30);
+  color: white;
+}
+
+.center {
+  text-align: center;
+  margin: 30px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-family: 'Bevan', cursive;
+}
+
+#output {
+  background-color: rgb(35, 0, 70);
+  border: 2px solid white;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+h2 {
+  margin: 20px 0 20px 0;
+  font-family: "bevan", cursive;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: purple;
+}
+
+.align {
+  margin: auto;
+  height: 100px;
+}
+
+#channels div {
+  text-align: left;
+  padding-left: 40px;
+}
+
+#streamings div {
+  padding: 21px 0 0 40px;
+  text-align: left;
+}
+
+/* Media Queries */
+
+@media all and (max-width: 1200px) {
+  #output {
+    width: 600px;
+  }
+}
+
+/* Medium Devices, Desktops */
+
+@media all and (max-width: 992px) {
+  #streamings {
+    float: left;
+  }
+  #channels {
+    float: left;
+  }
+  #output {
+    width: 600px;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@media all and (max-width: 768px) {
+  #output {
+    width: 600px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+
+@media all and (max-width: 480px) {
+  #output {
+    width: 400px;
+  }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+;
